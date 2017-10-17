@@ -1,0 +1,53 @@
+#login-content {
+    padding: 16% 4.5% 8% 4.5%;
+}
+
+#login-content #logo {
+    margin: 0% auto 18% auto;
+    width: 441px;
+    height: 109px;
+    background: url(../img/logo.png);
+}
+
+.login-form { 
+    background: #ebebeb; 
+    padding:55px 5% 6px 5%;
+}
+
+.login-form.has-error fieldset {
+    margin-top: 44px;
+}
+
+.login-form fieldset {
+    margin: 85px 0 0 0;
+    padding: 0;
+    border: none; 
+}
+
+.login-form .row {
+    margin-bottom: 44px;
+}
+
+.login-form .remember-me-row {
+    padding: 12px 19px;
+}
+
+.remember-me-wrapper {
+    float: left;
+    width: 214px;
+    height: 23px;
+    font-size: 20px;
+    text-align: left;
+    color: #444444;
+    height: auto;
+    overflow: hidden;
+}
+
+
+.forgot-pass { 
+    float: right;
+    line-height: 27px
+}
+.login-form input{
+    background-color: #fff;
+}

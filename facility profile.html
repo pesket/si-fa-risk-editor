@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+    <title>Auditz</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/queries.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <button class="pull-left btn-back header-back">Company</button>
+        <div class="header-title">Facility Name</div>
+        <div id="profile">
+            <img src="img/profile-pic.jpg" />
+            <div class="profile-info">
+                <div>User Name </div>
+                <div class="subtitle">Occupation </div>
+            </div>
+        </div>
+    </div>
+    <section id="content">
+        <div id="picture-header">
+
+            <h1>Facility Name</h1>
+            <button class="btn-mid pull-right btn-edit">EDIT </button>
+        </div>
+        <ul class="tab">
+            <li onclick="openTab(event,'info')">INFO</li>
+            <li class="active" onclick="openTab(event, 'audits')">AUDITS</li>
+            <li onclick="openTab(event, 'contacts')">CONTACTS</li>
+            <li onclick="openTab(event, 'tasks')">TASKS</li>
+        </ul>
+        <div id="info" class="tabcontent">
+            <div class="row">
+                <h1>Description</h1>
+                <p>Nfgka jgkjafnljfgoa ijrfl kanfkjdkljdjk f fjdfjkjfklj dfg f df gidjigjigj g ogoligopgj dfg opopgpodkgdofg
+                    d fgpokdopfkg dgmvlkaj fgoiarjflka smvlkafj</p>
+            </div>
+            <div class="row">
+                <h1>Address</h1>
+                <p>Nfgka jgkjafnljfgoa ijrfl kasmvlkaj djk f fjdfjkjfklj dfg f df gidjfgoiarjflka smvlkafj </p>
+
+                <button class="btn-mid see-on-map"> <span class= "fa">&#xf041</span> SEE ON MAP</button>
+            </div>
+
+            <div class="row">
+                <p class="pull-left phone">0025 634834</p>
+                <p class="pull-right e-mail">dkajsdk@dfjdk.com</p>
+            </div>
+
+        </div>
+
+
+        <div id="audits" class="tabcontent active">
+
+            <div class="data-header">
+                <ul>
+                    <li><button>Name</button></li>
+                    <li><button>Auditor</button></li>
+                    <li class="active"><button class="sort-down">Date</button></li>
+                    <li><button>Facility</button></li>
+                    <li class="no-grow"><button class="search"></button></li>
+                </ul>
+
+
+                <div class="search-input-wrapper">
+                    <input class="search-input" type="text" name="search" placeholder="Search..">
+                </div>
+            </div>
+
+            <div class="data-list">
+                <ul>
+
+                    <li>
+                        <div class="pull-left">
+                            <div>Title</div>
+                            <div class="subtitle">Subtitle</div>
+                        </div>
+                        <div class="pull-right">
+                            <div>Title</div>
+                            <div class="subtitle">Subtitle</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pull-left">
+                            <div>Title</div>
+                            <div class="subtitle">Subtitle</div>
+                        </div>
+                        <div class="pull-right">
+                            <div>Title</div>
+                            <div class="subtitle">Subtitle</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pull-left">
+                            <div>Title</div>
+                            <div class="subtitle">Subtitle</div>
+                        </div>
+                        <div class="pull-right">
+                            <div>Title</div>
+                            <div class="subtitle">Subtitle</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pull-left">
+                            <div>Title</div>
+                            <div class="subtitle">Subtitle</div>
+                        </div>
+                        <div class="pull-right">
+                            <div>Title</div>
+                            <div class="subtitle">Subtitle</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pull-left">
+                            <div>Title</div>
+                            <div class="subtitle">Subtitle</div>
+                        </div>
+                        <div class="pull-right">
+                            <div>Title</div>
+                            <div class="subtitle">Subtitle</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pull-left">
+                            <div>Title</div>
+                            <div class="subtitle">Subtitle</div>
+                        </div>
+                        <div class="pull-right">
+                            <div>Title</div>
+                            <div class="subtitle">Subtitle</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pull-left">
+                            <div>Title</div>
+                            <div class="subtitle">Subtitle</div>
+                        </div>
+                        <div class="pull-right">
+                            <div>Title</div>
+                            <div class="subtitle">Subtitle</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div id="footer">
+                <button type="submit" class="sign-in">START NEW AUDITS</button>
+            </div>
+
+
+        </div>
+
+        <div id="contacts" class="tabcontent">
+            <div class="data-header">
+                <ul>
+                    <li><button>Job</button></li>
+                    <li class="active"><button class="sort-down">Name</button></li>
+                    <li class="no-grow"><button class="search"></button></li>
+                </ul>
+
+
+                <div class="search-input-wrapper">
+                    <input class="search-input" type="text" name="search" placeholder="Search..">
+                </div>
+            </div>
+            <div class="data-list contacts-list">
+                <ul>
+                    <li>
+                        <div class="pull-left">
+                            <div><img src="img/profile-pic.jpg"> </div>
+                        </div>
+                        <div>
+                            <div class="contact-name">Contact Name
+                            <div class="phone">0025 634834</div>
+                        </div>
+
+                            <div class="contact-info">Engineer@Facility1
+                                <div class="e-mail">dkajsdk@dfjdk.com</div>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pull-left">
+                            <div><img src="img/profile-pic.jpg"> </div>
+                        </div>
+                        <div>
+                            <div class="contact-name">Contact Name
+                            <div class="phone">0025 634834</div>
+                            </div>
+
+                            <div class="contact-info">Engineer@Facility1
+                                <div class="e-mail">dkajsdk@dfjdk.com</div>
+
+                            </div>
+                        </div>
+                    </li>
+                        </div>
+                    </li>
+                </ul>
+
+
+            <div id="footer">
+                <button type="submit" class="sign-in">NEW CONTACT</button>
+            </div>
+
+        </div>
+
+
+        </div>
+        <div id="tasks" class="tabcontent">
+
+        </div>
+        </div>
+
+    </section>
+
+    <script>
+        function openTab(evt, name) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.querySelectorAll(".tabcontent");
+
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].classList.remove("active");
+            }
+            tablinks = document.querySelectorAll(".tab li");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].classList.remove("active");
+
+            }
+            document.getElementById(name).className += " active";
+            evt.currentTarget.className += " active";
+        }
+
+        $(".data-header button.search").click(function () {
+            var dataheader = $(this).parents(".data-header");
+            console.log(dataheader)
+            dataheader.find(".search-input-wrapper").show().focus();
+            dataheader.find("ul").hide();
+        })
+
+        $(".data-header .search-input-wrapper").blur(function () {
+            // $(".data-header .search-input").hide();
+            // $(".data-header ul").show();
+        })
+
+
+
+        $("#content").scroll(function () {
+            if ($("#content").scrollTop() >= $("#content #picture-header").height()) {
+                $('#content').addClass('fixed-tabs');
+            }
+            else {
+                $('#content').removeClass('fixed-tabs');
+            }
+        });
+    </script>
+
+
+</body>
+
+</html>

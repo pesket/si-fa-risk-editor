@@ -1,0 +1,39 @@
+@media screen and (max-width: 420px) {
+    #header-logo {
+       width : 80px;
+       background-size: 80px auto;       
+    }
+
+    .header-title {
+        font-size: 12px;
+    }
+
+    #profile .profile-info {
+        display: none;
+    }
+
+    button {
+        height: 44px;
+        font-size: 12px; 
+        letter-spacing: normal;
+    }
+
+    .btn-back:before {
+        font-size: 22px;
+        line-height: 44px;
+        top: 0;
+    }
+
+    input {
+        height: 44px;
+        font-size: 12px;
+    }    
+
+    textarea {
+        height: 86px;
+        font-size: 12px;
+    }
+
+    
+
+}

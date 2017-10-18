@@ -1,5 +1,7 @@
 #login-content {
-    padding: 16% 4.5% 8% 4.5%;
+    padding: 12% 4.5% 8% 4.5%;
+    background: #ebebeb;
+    margin: 4%;
 }
 
 #login-content #logo {
@@ -7,10 +9,11 @@
     width: 441px;
     height: 109px;
     background: url(../img/logo.png);
+    background-repeat: no-repeat;
 }
 
 .login-form { 
-    background: #ebebeb; 
+    background: #ebebeb;
     padding:55px 5% 6px 5%;
 }
 

@@ -17,28 +17,31 @@
         </div>
         </div>
     </div>
-
-        <div id="logo"></div>
-                <div class="search-input-wrapper">
-                    <input class="search-input" type="text" name="search" placeholder="Search..">
-                </div>
-                <div class="row">
-                </div>
-                <div class="row">
-                    <input type="password" placeholder="Password" name="password"/>
-                </div>
-                <div class="row remember-me-row">
-                    <div class="remember-me-wrapper">
-                        <input type="checkbox" name="remember-me" id="remember-me"/>
-                        <label for="remember-me"    >Remember Me</label>
-                    </div>
-                    <a class="forgot-pass" href='#'> Forgot Password?</a>
-                </div>
+    <section id="content" class="dashboard">
+        <div id="logo"><img src="img/headerlogo.png"></div>
+        <div class="search-input-wrapper">
+            <input type="text" name="search" placeholder="Search..">
+            <button class="search-button">SEARCH</button>
+        </div>
+        <div class="row check-row">
+            <div>
+                <input type="checkbox" name="company" id="company-check"/>
+                <label for="company-check">Company</label>
+                <input type="checkbox" name="audit" id="audit-check"/>
+                <label for="audit-check">Audit</label>
+            </div>
+        </div>
             
                 <div class="row">
-                    <button type="submit" class="sign-in" >SIGN IN</button>
+                    <button type="submit" class="creat-btn" >CREAT NEW COMPANY</button>
+                </div>
+                <div class="row">
+                    <button type="submit" class="creat-btn" >CREAT NEW FACILITY</button>
+                </div>
+                <div class="row">
+                    <button type="submit" class="creat-btn" >CREAT NEW AUDIT</button>
                 </div>
 
-
+    </section>
 </body>
 </html>

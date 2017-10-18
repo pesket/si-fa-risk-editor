@@ -82,6 +82,8 @@ html, body {
     padding: 0;
     font-family: Roboto;
     height: 100%;
+    color: #444444;
+    font-size: 16px;
 }
 
 button {
@@ -167,6 +169,7 @@ input[type="checkbox"] {
     font-size: 20px;
     display: inline-block;
     position: relative;
+    margin: 14px;
 }
 
 input:checked:focus {
@@ -282,7 +285,7 @@ input:checked:after {
     padding-right: 10px;
     padding-bottom: 10px;
     display: flex; 
-    flex-wrap: wrap;
+    flex-button: button;
     width: 96px;
     height: 96px;   
 }
@@ -608,10 +611,14 @@ button.sort-down:before {
     box-shadow: 1px 2px 2px 0 rgba(0, 0, 0, 0.18);
     background-color: #f1f5f7;
 }
+.data-header .search-input-wrapper {
+    display: none;
+}
+
 
 .search-input-wrapper {
     position: relative;
-    display: none;
+
 }
 
 .search-input-wrapper:after {
@@ -619,12 +626,17 @@ button.sort-down:before {
     font-family: FontAwesome;
     font-size: 24px;
     position: absolute;
-    right: 0px;
+    right: 14px;
     top: 0;
     line-height: 36px;
     color: #9b9b9b;
-    padding-right: 10px;
 }
+
+.dashboard .search-input-wrapper:after {
+    left: 32px;
+    top: 12px;
+}
+
 .contacts-list img {
     width:96px;
     height: 96px;
@@ -759,3 +771,50 @@ button .contact-photo{
     color: #08131f;
     margin-bottom: 64px;
 }
+#logo {
+    height: 40%;
+
+}
+#logo img{
+    width: 55%;
+    height: 27%;
+    margin: 23%;
+    margin-top: 25%;
+    margin-bottom: 11%;
+    border:none;
+}
+
+.dashboard{
+    padding: 20% 8.5%;
+}
+
+.dashboard .search-input-wrapper input{
+    width: 100%;
+    height: 60px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: solid 1px #727272;
+    /* margin: 4% 0; */
+    padding: 0 13%;
+    margin-bottom: 5%;
+}
+
+
+.dashboard .search-button{
+    height: 60px;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+.dashboard button{
+    margin-bottom: 2%;
+    height:64px;
+}
+
+.check-row{
+    margin-bottom: 8%;
+}
+
+

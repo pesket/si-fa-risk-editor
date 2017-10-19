@@ -75,7 +75,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 html, body {
     background: #fff;
     margin: 0;
@@ -85,7 +84,6 @@ html, body {
     color: #444444;
     font-size: 16px;
 }
-
 button {
     object-fit: contain;
     background-color:#3ca0ff;
@@ -102,8 +100,7 @@ button {
     text-transform: uppercase;
     position: relative;
     font-weight: 600;
-    }
-
+}
 a {
     font-family: Montserrat;
     font-size: 20px;
@@ -112,21 +109,17 @@ a {
     text-decoration: none;
 
 }
-
 p {
     font-size: 20px;
 }
-
 h1 {
     font-size: 24px;
     font-weight: 500;
 }
-
 ul{
     margin: 0;
     padding: 0
 }
-
 textarea {
     width: 100%;
     height: 146px;
@@ -139,13 +132,10 @@ textarea {
     background-color: #ebebeb;
     resize: none;
     color: #08121f;
-
 }
-
 input:focus {
     outline: none;
 }
-
 input {
     width: 100%;
     height: 64px;
@@ -158,7 +148,6 @@ input {
     background-color: #ebebeb;
     color: #08131f;
 }
-
 input[type="checkbox"] {
     width: 33px;
     height: 27px;
@@ -171,7 +160,6 @@ input[type="checkbox"] {
     position: relative;
     margin: 14px;
 }
-
 input:checked:focus {
     outline: none;
 }
@@ -184,6 +172,10 @@ input:checked:after {
     color: #555;
     border: none;
 }
+
+.checkboxes .pull-left {
+    margin-right: 80px;
+}
 .fa {
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
@@ -195,9 +187,6 @@ input:checked:after {
 .flex-height {
     flex: 1;
 }
-
-
-
 #header {
     width: 100%;
     height: 52px;
@@ -220,7 +209,6 @@ input:checked:after {
     max-width: 900px;
     margin: auto;
 }
-
 #footer {
     padding: 24px 10%;
     height: 104px;
@@ -236,9 +224,7 @@ input:checked:after {
     padding-left: 7.5%;
     padding-right: 8%;
     box-shadow: none;
-
 }
-
 #header-logo{
     margin: 0 0 0 21px;
     width: 160px;
@@ -250,7 +236,6 @@ input:checked:after {
     float: right;
     text-align: left;
     margin-right: 21px;
-
 }
 #profile img {
     width: 34px;
@@ -260,14 +245,12 @@ input:checked:after {
     border-radius: 19px;
     float: left;    
 }
-
 .btn-mid { 
     width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .pull-right {
     float: right;
 }
@@ -275,27 +258,26 @@ input:checked:after {
     float: left;
 }
 
-.media-list{
-    margin-bottom: 0px;
+.text-right {
+    text-align: right;
 }
-
+.media-list{
+    margin-bottom: 0;
+}
 .media-list li { 
     list-style-type: none;
     float: left;
     padding-right: 10px;
     padding-bottom: 10px;
-    display: flex; 
-    flex-button: button;
+    display: flex;
     width: 96px;
     height: 96px;   
 }
 .media-list img {
     width: 100%;
-
 }
 .btn-add-photo{
     height: 100%;
-
 }
 .btn-add-photo .fa{
     display: block
@@ -314,7 +296,6 @@ input:checked:after {
     justify-content: center;
     align-items: center;
 }
-
 .profile-info {
     font-size: 18px;
     color: #ffffff;
@@ -323,55 +304,44 @@ input:checked:after {
     margin-left: 6px;
     font-weight: 500;
 }
-.subtitle{
-    font-size: 14px;
-}
 .form{
     background: #fff; 
     padding:3% 8% 0 8%;
-
 }
 .row {
     width: 100%;
     margin-bottom: 16px;
     float: none;
     height: auto;
-    overflow: hidden;
     box-sizing: border-box;
 }
-
 .error {
     font-size: 22px;
     line-height: 1.64;
     color: #d0011b;
     padding: 8px;
-  }
-
+}
 button .fa {
     font-size: 22px
 }
-
 .btn-edit {
     margin: 105px 44px 0 0;
     width: 28%;
     height: 32%;
-
 }
 
-#picture-header h1 { 
+#picture-header h1 {
     font-size: 36px;
     color: #ffffff;
     font-weight: lighter;
     position: absolute;
     top:64%;
     margin: 0;
-
-} 
+}
 #info p {
     font-size: 16px;
     color: #444444;
     margin: 24px 0;
-   
 }
 #info h1 {
     color: #414141;
@@ -379,12 +349,10 @@ button .fa {
 }
 #info .row {
     border-bottom: solid 1px #979797;
-    
 }
 #info .row:last-child {
     border-bottom:none;
 }
-
 #picture-header{
     height: 184px;
     background:black;
@@ -402,9 +370,7 @@ button .fa {
     text-align: center;
     padding: 0 10px 0 26px;
     text-transform: capitalize;
-   
 }
-
 #picture-header .btn-back:before {
     content: "\f053";
     font-family: FontAwesome;
@@ -416,13 +382,10 @@ button .fa {
     display: flex;
     justify-content: center;
     align-items: center;
-      
 }
-
 .fixed-tabs #picture-header {
     margin-bottom: 56px;
 }
-
 .fixed-tabs .tab {
     position: fixed;
     z-index: 10;
@@ -430,27 +393,21 @@ button .fa {
     background: white;
     width: 100%;
 }
-
-
-
 .tab {
     overflow: hidden;
     display: flex;
     justify-content: space-between;
     padding: 0;
     border-bottom: solid 1px #3ca0ff;
-    
 }
 .data-header{
     background: #f0f0f0;
     padding:32px 24px 0 24px;
-    
 }
 .data-header ul{
     list-style: none;
     display:flex;
 }
-
 .data-header li {
     flex-grow: 1;
     flex-basis: 0;  
@@ -459,13 +416,9 @@ button .fa {
 .data-header li.no-grow {
     flex-grow: 0;
 }
-
 .data-header li:first-child {
     padding-left: 0;
 }
-
-
-
 button.search:before {
     font-family: FontAwesome;
     content: "\f002";
@@ -504,34 +457,24 @@ button.sort-down:before {
     color: #3ca0ff;
     width: 100%;
 }
-
-
 .tab li.active {
     border-bottom: 2px solid;
     font-weight: 500;
 }
-
 .tab li:hover {
     font-weight: 500;
 }
-
-
 .tabcontent {
     display: none;
     border-top: none;
-    font-size: 24px;
     font-weight: 500;
-    color: #414141;
     padding: 0;
-
 }
-
 .tabcontent.active {    
     flex: 1;
     display: flex;
     flex-flow: column; 
 }
-
 #info.tabcontent{
     padding: 64px 86px;
 }
@@ -542,52 +485,46 @@ button.sort-down:before {
     padding: 0 32px;
     height: 44px;
     line-height: 44px;
-      
-   }
+}
 .data-header li.active button{
     background-color: #3ca0ff;
-
 }
 .data-header .search-input {
     background: #fff;
 }
-.data-list{
-    padding: 16px 24px;
+
+.tabcontent .data-list {
     background: #f0f0f0;
     flex: 1;
 }
+
+.data-list ul {
+    padding: 3%;
+}
 .data-list li{
+    padding: 2em;
+}
+
+.data-list li {
     list-style-type: none;  
     height: auto;
     overflow: hidden;
-    padding: 32px;
-    color: #08121f;
     font-weight: normal;
     border-bottom: 1px solid #d3d3d3;
     background: #fff;
 }
-.data-list .subtitle{
-    font-size: 20px;
-    text-align: left;
-    color: #444444;
-}
 
+.data-list .title {
+    font-size: 20px;
+    color: #08131f;
+    margin-bottom: 16px;
+}
 .search-input{
     height: 36px;
     padding: 0 24px;
 }
 .see-on-map{
     margin: 16px 0;
-}
-#info .phone{
-    padding-left:  66px;
-    font-size: 16px;
-    color: #444444;
-}
-#info .e-mail{
-    padding-right: 79px;
-    font-size: 16px;
-    color: #444444;
 }
 .header-back{
     width: 240px;
@@ -605,7 +542,6 @@ button.sort-down:before {
     bottom: 16px;
     left: 30%;
 }
-
 .data-list li.selected{
     border-left: 4.5px solid #3ca0ff;
     box-shadow: 1px 2px 2px 0 rgba(0, 0, 0, 0.18);
@@ -614,13 +550,9 @@ button.sort-down:before {
 .data-header .search-input-wrapper {
     display: none;
 }
-
-
 .search-input-wrapper {
     position: relative;
-
 }
-
 .search-input-wrapper:after {
     content: "\f002";
     font-family: FontAwesome;
@@ -632,65 +564,50 @@ button.sort-down:before {
     color: #9b9b9b;
 }
 
-.dashboard .search-input-wrapper:after {
+.search-box .search-input-wrapper:after {
     left: 32px;
     top: 12px;
 }
 
-.contacts-list img {
+.li-info {
+    box-sizing: border-box;
+    margin: 20px 32px 20px 128px;
+}
+
+.bottom-subtitle {
+    margin-top: 16px;
+}
+
+.notcompleted {
+    color: #d0021b;
+    font-size: 22px;
+}
+
+.completed {
+    color: #7ed321;
+    font-size: 22px;
+}
+
+.data-list img {
     width:96px;
     height: 96px;
 }
 
-.contacts-list li {
+.info-list li {
     height: auto;
     padding: 0;
 }
-
-.contact-name{
-    font-size: 20px;
-    margin-left: 128px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    color: #08131f;
-
-}
-.contact-info{
-    font-size: 16px;
-    margin-left: 128px;
-    color: #444444;
-}
-.contacts-list .phone{
-    float: right;
-    padding-right: 32px;
-    font-size: 16px;
-
-
-}
-.contacts-list .e-mail{
-    float: right;
-    padding-right: 32px;
-
-}
-
 .structure-info{
-    margin: 60px 24px 0px 24px;
+    margin: 60px 24px 0 24px;
     height: 90px;
     border-bottom: 4px solid #3ca0ff;
-
-
-
 }
 .structure-info div{
     float: left;
     padding: 30px 30px;
     font-size: 20px;
     font-weight: 300;
-
 }
-
-
-
 .segment:before {
     content: "\f053";
     font-family: FontAwesome;
@@ -699,19 +616,7 @@ button.sort-down:before {
     left: 10px;
     top: 0;
     line-height: 44px;
-
 }
-
-.level1{
-
-}
-.node{
-
-}
-.node-volume{
-
-}
-
 button .contact-photo{
     position: absolute;
     font-size: 24px;
@@ -726,7 +631,6 @@ button .contact-photo{
     overflow: hidden;
     position: relative;
 }
-
 .select-style select {
     width: 100%;
     height: 64px;
@@ -736,9 +640,7 @@ button .contact-photo{
     font-family: Roboto;
     background-color: #ebebeb;
     color: #707070;
-
 }
-
 .select-style select:focus {
     outline: none;
 }
@@ -751,8 +653,8 @@ button .contact-photo{
     content: "\f078";
     position: absolute;
     top: 0;
-    bottom: 0px;
-    right: 0px;
+    bottom: 0;
+    right: 0;
     background-color:#3ca0ff;
     border: none ;
     cursor: pointer;
@@ -763,7 +665,6 @@ button .contact-photo{
     justify-content: center;
     align-items: center;
     color: #fff;
-
 }
 .form-header{
     font-size: 30px;
@@ -771,50 +672,56 @@ button .contact-photo{
     color: #08131f;
     margin-bottom: 64px;
 }
-#logo {
-    height: 40%;
-
-}
 #logo img{
     width: 55%;
     height: 27%;
     margin: 23%;
     margin-top: 25%;
-    margin-bottom: 11%;
+    margin-bottom: 0;
     border:none;
 }
-
 .dashboard{
-    padding: 20% 8.5%;
+    padding: 0 8.5%;
 }
 
-.dashboard .search-input-wrapper input{
+.search-box {
+    padding: 9% 10%;
+}
+
+.dashboard .search-box {
+    padding: 9% 0;
+}
+
+.search-box .search-input-wrapper input {
     width: 100%;
     height: 60px;
     border-radius: 4px;
     background-color: #ffffff;
     border: solid 1px #727272;
-    /* margin: 4% 0; */
     padding: 0 13%;
     margin-bottom: 5%;
 }
 
-
-.dashboard .search-button{
+.search-box .search-button {
     height: 60px;
     width: 200px;
     position: absolute;
     top: 0;
     right: 0;
-
 }
 .dashboard button{
     margin-bottom: 2%;
     height:64px;
 }
 
-.check-row{
-    margin-bottom: 8%;
+.level1 {
+
 }
 
+.node {
 
+}
+
+.node-volume {
+
+}

@@ -19,29 +19,32 @@
     </div>
     <section id="content" class="dashboard">
         <div id="logo"><img src="img/headerlogo.png"></div>
-        <div class="search-input-wrapper">
+        <div class="search-box">
+            <div class="search-input-wrapper">
             <input type="text" name="search" placeholder="Search..">
             <button class="search-button">SEARCH</button>
-        </div>
-        <div class="row check-row">
-            <div>
-                <input type="checkbox" name="company" id="company-check"/>
-                <label for="company-check">Company</label>
-                <input type="checkbox" name="audit" id="audit-check"/>
-                <label for="audit-check">Audit</label>
+            </div>
+            <div class="checkboxes">
+                <div class="pull-left">
+                    <input type="checkbox" name="company" id="company-check"/>
+                    <label for="company-check">Company</label>
+                </div>
+                <div class="pull-left">
+                    <input type="checkbox" name="audit" id="audit-check"/>
+                    <label for="audit-check">Audit</label>
+                </div>
             </div>
         </div>
-            
-                <div class="row">
-                    <button type="submit" class="creat-btn" >CREAT NEW COMPANY</button>
-                </div>
-                <div class="row">
-                    <button type="submit" class="creat-btn" >CREAT NEW FACILITY</button>
-                </div>
-                <div class="row">
-                    <button type="submit" class="creat-btn" >CREAT NEW AUDIT</button>
-                </div>
 
+        <div class="row">
+            <button type="submit" class="creat-btn">CREAT NEW COMPANY</button>
+        </div>
+        <div class="row">
+            <button type="submit" class="creat-btn">CREAT NEW FACILITY</button>
+        </div>
+        <div class="row">
+            <button type="submit" class="creat-btn">CREAT NEW AUDIT</button>
+        </div>
     </section>
 </body>
 </html>

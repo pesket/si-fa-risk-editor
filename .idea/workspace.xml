@@ -189,7 +189,7 @@
       <workItem from="1508260262367" duration="173000" />
       <workItem from="1508321052315" duration="15512000" />
       <workItem from="1508407098505" duration="20102000" />
-      <workItem from="1508755352294" duration="21538000" />
+      <workItem from="1508755352294" duration="21546000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1508260326531</created>
@@ -219,11 +219,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508779886965</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="facility structure olusturuldu">
+      <created>1508779927759</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1508779927759</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92551000" />
+    <option name="totallyTimeSpent" value="92559000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />

@@ -14,49 +14,67 @@
 <div id="header">
     <button class="pull-left btn-back header-back">Back</button>
     <div class="header-title">Facility Name</div>
-    <div id="profile">
-        <img src="img/profile-pic.jpg" />
-        <div class="profile-info">
-            <div>User Name </div>
-            <div class="subtitle">Occupation </div>
-        </div>
-    </div>
 </div>
-<section id="content">
+<section id="content" class="structure">
     <div class="structure-info">
-    <div>Companx Co.</div>
-    <div>Facilit1</div>
-    <button class="btn-mid pull-right">ADD ITEM</button>
-    </div>
-    <div>
-        <ul>
-            <li class="node node-volume level1">Manifacture
-                <ul class="level">
-
-                </ul>
-
-
-
-            </li>
-        </ul>
+        <div class="pull-left">Companx Co.</div>
+        <div class="pull-left">Facilit1</div>
+        <button class="small-btn pull-right">ADD ITEM</button>
     </div>
 
 
+    <ul class="tree">
+        <li>
+            <div class="node volume-node sort-up">Manifacturing Area
+                <div class="info">Volume</div>
+            </div>
+            <ul>
+                <li>
+                    <div class="node machine-node sort-up">Reactor
+                        <div class="info">Machine</div>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="node risk-group-node sort-up">Explosion Risks
+                                <div class="info">Risk Group</div>
+                            </div>
+                            <ul>
+                                <li>
+                                    <div class="node risk-node">Over Pressure Explosion
+                                        <div class="info">Risk</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="node risk-node">Explosive Materials
+                                        <div class="info">Risk</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
 
+                    </ul>
+                </li>
+                <li>
+                    <div class="node machine-node sort-down">Boiler
+                        <div class="info">Machine</div>
+                    </div>
+                </li>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+            </ul>
+        </li>
+        <li>
+            <div class="node volume-node sort-down active-node">Storage
+                <div class="info">Volume</div>
+                <div>
+                    <button class="btn-edit-structure"><span class="fa">&#xf044</span>EDIT</button>
+                    <button class="btn-trash fa">&#xf1f8</button>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <div id="footer">
+        <button type="submit" class="sign-in">START AUDIT</button>
+    </div>
 </section>
 
 </body>

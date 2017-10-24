@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
-<section id=side-content class="item-search">
+<section id=side-content>
+    <div class="add-item">
     <div class="green-title">ADD ITEM
         <a class="fa link-close">&#xf00d</a>
     </div>
@@ -16,7 +17,7 @@
         <div class="search-input-wrapper">
             <input type="search" name="search" placeholder="Mixer">
         </div>
-        <div class="row select-style">
+        <div class="select-style">
             <select>
                 <option value="facility1">All</option>
                 <option value="facility2">Facility2</option>
@@ -24,19 +25,28 @@
                 <option value="facility4">Facility4</option>
             </select>
         </div>
+    </div>
+    </div>
+    <div class="search-result-wrapper">
         <div class="result-title">Machines
         </div>
-
-
-        <div class="row">
-            <button type="submit" class="creat-btn">NEW VOLUME</button>
+        <ul class="search-result">
+            <li class="drag-drop" draggable="true">OPEN TANK MIXER</li>
+            <li class="drag-drop">VACUUM MIXER</li>
+            <li class="drag-drop">LIQUID MIXER</li>
+        </ul>
+        <a class="">More</a>
+    </div>
+    <div class="search-result-wrapper">
+        <div class="result-title">Machines
         </div>
-        <div class="row">
-            <button type="submit" class="creat-btn">NEW MACHINE</button>
-        </div>
-        <div class="row">
-            <button type="submit" class="creat-btn">NEW PROCESS</button>
-        </div>
+        <ul class="search-result">
+            <li class="drag-drop">OPEN TANK MIXER</li>
+            <li class="drag-drop">VACUUM MIXER</li>
+            <li class="drag-drop">LIQUID MIXER</li>
+        </ul>
+        <a>More</a>
+    </div>
 
 </section>
 </body>

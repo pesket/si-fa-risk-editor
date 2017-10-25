@@ -95,6 +95,7 @@ a {
     text-align: left;
     color: #43474b;
     text-decoration: none;
+    cursor: pointer;
 }
 p {
     font-size: 20px;
@@ -917,36 +918,84 @@ button .contact-photo {
     width: 100%;
     left: 0;
 }
-
 .volume-info {
     padding: 10px 20px;
 }
-
 .volume-info input {
     height: 60px;
 }
-
 .volume-info textarea {
     height: 230px;
 }
-
 .btn-clear {
     background-color: #e47684;
     letter-spacing: 3.2px;
     width: 100px;
     margin-right: 6px;
 }
-
 .btn-preset {
     width: 210px;
     letter-spacing: 3.2px;
 }
-
 .btn-add-structure {
     margin-top: 16px;
 }
-
 .btn-risk-value {
     margin-bottom: 16px;
     letter-spacing: 3.2px;
+}
+
+.table {
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    box-shadow: 4px 22px 33px 0 rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    border-spacing: unset;
+}
+
+.risk-box {
+    width: 57.6px;
+    height: 50.7px;
+    display: inline-block;
+}
+
+.red-box {
+    background-color: #d0021b;
+}
+
+.yellow-box {
+    background-color: #f8e71c;
+}
+
+.green-box {
+    background-color: #008002;
+}
+
+.question-box {
+    background-color: #d4d4d4;
+    font-size: 30px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.table th {
+    font-family: Montserrat;
+    font-size: 24px;
+    letter-spacing: 2.2px;
+    color: #2e2e2e;
+    font-weight: 400;
+    padding: 0;
+}
+
+.table td {
+    padding-right: 4px;
+}
+
+.th-border {
+    border-bottom: solid 3px #e5e5e5;
+    border-top: solid 3px #e5e5e5;
 }

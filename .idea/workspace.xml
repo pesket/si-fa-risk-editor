@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e80c582b-676f-42cf-9bef-ac7dd895b235" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/23-audit volume select.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/16-add item.html" afterPath="$PROJECT_DIR$/16-add item.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facility structure.html" afterPath="$PROJECT_DIR$/Facility structure.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/common.css" afterPath="$PROJECT_DIR$/css/common.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,38 +22,18 @@
       <file leaf-file-name="common.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/common.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="986" column="1" lean-forward="true" selection-start-line="986" selection-start-column="1" selection-end-line="986" selection-end-column="1" />
+            <state relative-caret-position="177">
+              <caret line="714" column="20" lean-forward="false" selection-start-line="714" selection-start-column="4" selection-end-line="714" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="16-add item.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/16-add item.html">
+      <file leaf-file-name="23-audit volume select.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/23-audit volume select.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="17-item search.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/17-item search.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="36" column="13" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="36" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="risk matrix.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/risk matrix.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="19" />
+            <state relative-caret-position="68">
+              <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -69,11 +50,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>search</find>
-      <find>after</find>
-      <find>.select-style</find>
-      <find>.search-box .search-input-wrapper input</find>
-      <find>font-size: 20px;</find>
       <find>side</find>
       <find>add-itemaa</find>
       <find>add-item</find>
@@ -99,6 +75,11 @@
       <find>button</find>
       <find>node</find>
       <find>drag</find>
+      <find>or-</find>
+      <find>EDIT</find>
+      <find>structur</find>
+      <find>title</find>
+      <find>font-size: 24px;</find>
     </findStrings>
     <replaceStrings>
       <replace>button</replace>
@@ -124,12 +105,13 @@
         <option value="$PROJECT_DIR$/new company.html" />
         <option value="$PROJECT_DIR$/5-Search.html" />
         <option value="$PROJECT_DIR$/4-Dashboard.html" />
-        <option value="$PROJECT_DIR$/Facility structure.html" />
         <option value="$PROJECT_DIR$/css/risk matrix.html" />
         <option value="$PROJECT_DIR$/18-new volume.html" />
         <option value="$PROJECT_DIR$/risk matrix.html" />
         <option value="$PROJECT_DIR$/17-item search.html" />
         <option value="$PROJECT_DIR$/16-add item.html" />
+        <option value="$PROJECT_DIR$/Facility structure.html" />
+        <option value="$PROJECT_DIR$/23-audit volume select.html" />
         <option value="$PROJECT_DIR$/css/common.css" />
       </list>
     </option>
@@ -224,7 +206,7 @@
       <workItem from="1508755352294" duration="21602000" />
       <workItem from="1508835866949" duration="21674000" />
       <workItem from="1508923575608" duration="16908000" />
-      <workItem from="1509009335258" duration="3369000" />
+      <workItem from="1509009335258" duration="5899000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1508260326531</created>
@@ -303,11 +285,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509014306149</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="item search yenilendi">
+      <created>1509014934496</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1509014934496</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134566000" />
+    <option name="totallyTimeSpent" value="137096000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -593,13 +582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Facility structure.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/4-Dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
@@ -661,10 +643,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Facility structure.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="54" lean-forward="false" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/23-audit volume select.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/common.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="986" column="1" lean-forward="true" selection-start-line="986" selection-start-column="1" selection-end-line="986" selection-end-column="1" />
+        <state relative-caret-position="177">
+          <caret line="714" column="20" lean-forward="false" selection-start-line="714" selection-start-column="4" selection-end-line="714" selection-end-column="20" />
           <folding />
         </state>
       </provider>

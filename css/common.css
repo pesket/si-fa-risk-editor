@@ -326,7 +326,8 @@ input[type="search"]::-webkit-search-results-decoration {
 button .fa {
     font-size: 22px
 }
-.btn-edit {
+
+#picture-header .btn-edit {
     margin: 105px 44px 0 0;
     width: 28%;
     height: 32%;
@@ -608,7 +609,6 @@ button.sort-down:before {
     top: 0;
     line-height: 44px;
 }
-
 button .contact-photo {
     position: absolute;
     font-size: 24px;
@@ -693,11 +693,13 @@ button .contact-photo {
     margin-bottom: 2%;
     height:64px;
 }
-.structure-info {
+
+.structure-header {
     margin: 0 24px;
     height: 130px;
 }
-.structure-info div {
+
+.structure-info {
     font-size: 20px;
     color: #08131f;
     padding-left: 80px;
@@ -970,7 +972,6 @@ button .contact-photo {
     border-bottom: solid 3px #e5e5e5;
     border-top: solid 3px #e5e5e5;
 }
-
 .search-result .node {
     color: #4a4a4a;
     font-size: 16px;
@@ -981,9 +982,19 @@ button .contact-photo {
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 3.2px;
+    margin-bottom: 16px;
 }
-
 .search-result .volume-node {
     border-left: 4px solid #3ca0ff;
     min-height: 54px;
+    border-top: none;
+}
+
+#header .btn-edit {
+    padding-right: 24px;
+    text-align: right;
+}
+
+#header .btn-back:before {
+    bottom: 12px;
 }

@@ -214,7 +214,6 @@ input[type="search"]::-webkit-search-results-decoration {
     background: white;
     box-shadow: 0 -2px 4px 0 rgba(0, 0, 0, 0.21);
 }
-
 #small-footer {
     box-sizing: border-box;
     z-index: 10;
@@ -254,6 +253,20 @@ input[type="search"]::-webkit-search-results-decoration {
     justify-content: center;
     align-items: center;
 }
+
+.btn-set-location {
+    margin-bottom: 16px;
+    padding-left: 24px;
+}
+
+.btn-set-location:before {
+    content: "\f041";
+    font-family: FontAwesome;
+    font-size: 24px;
+    position: absolute;
+    left: 20px;
+    top: 16px;
+}
 .pull-right {
     float: right;
 }
@@ -286,7 +299,6 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 .btn-back {
     padding: 0 42px;
-    width: 33%;
 }
 .btn-back:before {
     content: "\f053";
@@ -693,12 +705,10 @@ button .contact-photo {
     margin-bottom: 2%;
     height:64px;
 }
-
 .structure-header {
     margin: 0 24px;
     height: 130px;
 }
-
 .structure-info {
     font-size: 20px;
     color: #08131f;
@@ -989,12 +999,66 @@ button .contact-photo {
     min-height: 54px;
     border-top: none;
 }
-
 #header .btn-edit {
     padding-right: 24px;
     text-align: right;
 }
-
 #header .btn-back:before {
     bottom: 12px;
+}
+
+.structure-header .title {
+    font-size: 24px;
+    font-weight: 500;
+    color: #424242;
+    clear: both;
+    padding: 36px 0 0 0;
+    text-align: center;
+}
+
+.audit-volume .volume-node {
+    min-height: 88px;
+    margin-bottom: 16px;
+}
+
+.audit-volume .node {
+    padding: 24px 52px;
+}
+
+.audit-volume .node:after {
+    top: 32px;
+}
+
+#footer.audit-volume-footer {
+    padding-left: 7.5%;
+    padding-right: 8%;
+}
+
+.change-name {
+    padding: 32px 32px;
+}
+
+.change-name .green-title {
+    padding-left: 10px;
+}
+
+.change-name input {
+    background-color: #ffffff;
+    border: solid 1px #727272;
+    border-radius: 4px;
+}
+
+.change-name button {
+    width: 210px;
+    height: 44px;
+}
+
+.change-name #footer.back-next-footer {
+    padding-left: 5%;
+    padding-right: 4%;
+    box-shadow: none;
+}
+
+.pink-btn {
+    background-color: #e47684;
 }

@@ -725,6 +725,7 @@ button .contact-photo {
     min-height: 64px;
     box-sizing: border-box;
     position: relative;
+    list-style-type: none;
 }
 .tree .sort-down:before {
     font-family: FontAwesome;
@@ -805,9 +806,6 @@ button .contact-photo {
 }
 .add-item {
     padding: 32px 16px;
-}
-.or-create {
-    padding: 0 16px;
 }
 .green-title {
     font-family: Lato;
@@ -973,8 +971,7 @@ button .contact-photo {
     border-top: solid 3px #e5e5e5;
 }
 
-.search-result-wrapper .node {
-    list-style-type: none;
+.search-result .node {
     color: #4a4a4a;
     font-size: 16px;
     min-height: 54px;
@@ -984,4 +981,9 @@ button .contact-photo {
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 3.2px;
+}
+
+.search-result .volume-node {
+    border-left: 4px solid #3ca0ff;
+    min-height: 54px;
 }

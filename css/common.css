@@ -114,7 +114,6 @@ textarea {
     vertical-align: middle;
     padding: 14px 5%;
     border: none;
-    font-size: 16px;
     box-sizing: border-box;
     font-family: Roboto;
     background-color: #ebebeb;
@@ -705,29 +704,34 @@ button .contact-photo {
     margin-bottom: 2%;
     height:64px;
 }
-.structure-header {
-    margin: 0 24px;
-    height: 130px;
-}
 .structure-info {
     font-size: 20px;
     color: #08131f;
     padding-left: 80px;
     padding-top: 32px;
 }
+
+.risk-ass .structure-info {
+    padding: 16px 16px 16px 40px;
+}
 .small-btn {
-    justify-content: center;
-    margin-top: 50px;
     height: 44px;
     width: 218px;
     letter-spacing: 3.2px;
 }
+
+.structure-header .small-btn {
+    margin: 50px 24px 32px 0;
+}
 .tree {
     padding: 0 24px;
     list-style-type: none;
+    flex: 1;
+}
+
+.risk-tree {
     font-size: 24px;
     color: #4a4a4a;
-    flex: 1;
 }
 .node {
     padding: 9px 0 9px 52px;
@@ -771,9 +775,12 @@ button .contact-photo {
     display: none;
 }
 .tree ul {
-    padding-left: 24px;
     list-style-type: none;
     overflow: hidden;
+}
+
+.risk-tree ul {
+    padding-left: 24px;
 }
 .tree .info {
     font-size: 14px;
@@ -1006,59 +1013,105 @@ button .contact-photo {
 #header .btn-back:before {
     bottom: 12px;
 }
-
 .structure-header .title {
     font-size: 24px;
     font-weight: 500;
     color: #424242;
     clear: both;
-    padding: 36px 0 0 0;
+    padding: 48px 0 32px 0;
     text-align: center;
 }
-
 .audit-volume .volume-node {
     min-height: 88px;
     margin-bottom: 16px;
 }
-
 .audit-volume .node {
     padding: 24px 52px;
 }
-
 .audit-volume .node:after {
     top: 32px;
 }
-
 #footer.audit-volume-footer {
     padding-left: 7.5%;
     padding-right: 8%;
 }
-
 .change-name {
     padding: 32px 32px;
 }
-
 .change-name .green-title {
     padding-left: 10px;
 }
-
 .change-name input {
     background-color: #ffffff;
     border: solid 1px #727272;
     border-radius: 4px;
 }
-
 .change-name button {
     width: 210px;
     height: 44px;
 }
-
 .change-name #footer.back-next-footer {
     padding-left: 5%;
     padding-right: 4%;
     box-shadow: none;
 }
-
 .pink-btn {
     background-color: #e47684;
+}
+
+.risk-info li {
+    width: 47%;
+    float: left;
+    border-radius: 4px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.16);
+    margin-left: 2%;
+    margin-top: 16px;
+    overflow: auto;
+    box-sizing: border-box;
+    padding: 16px;
+}
+
+.risk-info li:nth-child(2) {
+    margin-right: 2%;
+}
+
+.risk-info li:last-child {
+    width: 100%;
+}
+
+.btn-risk {
+    width: 13%;
+    border: 2px solid rgba(45, 90, 132, 0.16);
+    border-radius: 0 0 20px 20px;
+    background-color: #fff;
+    box-shadow: 1px 4px 10px 0 rgba(45, 90, 132, 0.16);
+    border-top: none;
+    margin: 0 1% 2% 0;
+    color: #4e4e4e;
+    text-transform: none;
+    display: block;
+    float: left;
+    min-width: 40px;
+}
+
+.btn-risk:last-child {
+    margin-right: 0;
+}
+
+.risk-info .title {
+    color: #08131f;
+    font-size: 20px;
+}
+
+.risk-info p {
+    color: #444444;
+    font-size: 16px;
+    overflow: auto;
+    height: 120px;
+}
+
+.risk-level-wrapper div {
+    width: 50%;
+    float: left;
 }

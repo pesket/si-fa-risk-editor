@@ -399,19 +399,16 @@ button .fa {
 .fixed-tabs #picture-header {
     margin-bottom: 56px;
 }
-.fixed-tabs .tab {
-    position: fixed;
-    z-index: 10;
-    top: 90px;
-    background: white;
-    width: 100%;
-}
 .tab {
     overflow: hidden;
     display: flex;
     justify-content: space-between;
     padding: 0;
     border-bottom: solid 1px #3ca0ff;
+    z-index: 10;
+    position: sticky;
+    top: 0;
+    background: white;
 }
 
 .data-header {
@@ -528,12 +525,13 @@ button.sort-down:before {
     border-bottom: 1px solid #d3d3d3;
     background: #fff;
 }
-.data-list .title {
+
+.data-list .li-info .title {
     font-size: 20px;
     color: #08131f;
     margin-bottom: 16px;
+    padding: 0;
 }
-
 .search-input {
     height: 36px;
     padding: 0 24px;
@@ -546,7 +544,6 @@ button.sort-down:before {
 .header-back {
     width: 24%;
     height: 44px;
-    font-weight: 600;
 }
 
 .header-title {
@@ -1058,7 +1055,6 @@ button .contact-photo {
 .pink-btn {
     background-color: #e47684;
 }
-
 .risk-info li {
     width: 47%;
     float: left;
@@ -1069,17 +1065,14 @@ button .contact-photo {
     margin-top: 16px;
     overflow: auto;
     box-sizing: border-box;
-    padding: 16px;
 }
 
-.risk-info li:nth-child(2) {
+.risk-info risk-right-margin {
     margin-right: 2%;
 }
-
 .risk-info li:last-child {
-    width: 100%;
+    width: 96%;
 }
-
 .btn-risk {
     width: 13%;
     border: 2px solid rgba(45, 90, 132, 0.16);
@@ -1094,24 +1087,64 @@ button .contact-photo {
     float: left;
     min-width: 40px;
 }
-
-.btn-risk:last-child {
-    margin-right: 0;
-}
-
 .risk-info .title {
     color: #08131f;
     font-size: 20px;
+    padding: 16px;
 }
-
 .risk-info p {
     color: #444444;
     font-size: 16px;
     overflow: auto;
     height: 120px;
+    padding-left: 16px;
+    margin: 0;
 }
 
-.risk-level-wrapper div {
-    width: 50%;
+.risk-info li.risk-level {
+    width: 22.5%;
     float: left;
+}
+
+.risk-info .btn-risk-edit {
+    width: 10%;
+    height: 23px;
+    letter-spacing: 3.2px;
+}
+
+.risk-info .btn-risk-level {
+    width: 100%;
+    height: 44px;
+    letter-spacing: 3.2px;
+}
+
+.risk-info .yellow-btn {
+    color: #535353;
+    background-color: #f8e71c;
+}
+
+.risk-info .btn-risk-select {
+    width: 32%;
+    height: 100px;
+    letter-spacing: 3.2px;
+}
+
+.risk-info li.risk-select {
+    display: flex;
+}
+
+.risk-info li.risk-select .title {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.risk-info li .task-p {
+    height: 44px;
+}
+
+.risk-info .btn-task {
+    margin-top: 12px;
+    margin-right: 16px;
 }

@@ -1148,3 +1148,68 @@ button .contact-photo {
     margin-top: 12px;
     margin-right: 16px;
 }
+
+.risk-info .fa {
+    color: #3ca0ff;
+    background-color: #fff;
+}
+
+.risk-text {
+    padding: 32px;
+}
+
+.risk-text-title {
+    font-size: 20px;
+    text-align: left;
+    color: #08131f;
+}
+
+.risk-textarea {
+    margin-top: 16px;
+}
+
+.risk-text textarea {
+    line-height: 2.25;
+    text-align: left;
+    color: #08131f;
+    font-size: 16px;
+    padding: 20px 40px 0 20px;
+    height: 312px;
+}
+
+.risk-text .fa-risk {
+    font-family: FontAwesome;
+    font-size: 30px;
+    color: #03a57b;
+    float: left;
+    margin-right: 20px;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.record-photo-wrapper {
+    border-right: solid 3px #979797;
+    display: flex;
+}
+
+.risk-img-wrapper {
+    display: flex;
+}
+
+.risk-img-wrapper img {
+    width: 60px;
+    height: 60px;
+    border: solid 2px #03a57b;
+    display: flex;
+}
+
+.risk-img-wrapper .fa-risk {
+    font-size: 40px;
+    border: solid 1px #03a57b;
+    margin-left: 20px;
+}
+
+.record-data {
+    display: flex;
+}

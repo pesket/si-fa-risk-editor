@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1"/>
-    <title>Auditz</title>
+    <title>Task details</title>
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/queries.css">
 </head>
@@ -14,7 +14,7 @@
     <button class="pull-right btn-edit header-back">EDIT</button>
 </div>
 <section id="content" class="task-details">
-    <div class="row info-list data-list">
+    <div class="info-list data-list">
         <ul>
             <li>
                 <div class="pull-left">
@@ -33,9 +33,13 @@
             </li>
         </ul>
     </div>
-
-    <div class="row">
-        <textarea about="description" placeholder="Task Description"></textarea>
+    <div class="task-description">
+        <textarea about="description" placeholder="Task Description">Task description
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+1- Ut enim ad minim veniam,
+2- Quis nostrud exercitation ullamco laboris nisi ut aliqui</textarea>
+        <button class="btn-flex pull-right green-btn">COMPLETED</button>
+        <button class="btn-flex pull-right pink-btn">DELETE</button>
     </div>
 
 </section>

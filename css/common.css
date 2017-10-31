@@ -1037,7 +1037,7 @@ button .contact-photo {
     border-radius: 4px;
 }
 .change-name button {
-    width: 210px;
+    width: 41%;
     height: 44px;
 }
 .change-name #footer.back-next-footer {
@@ -1234,8 +1234,28 @@ button .contact-photo {
 .task-details textarea {
     font-size: 16px;
     background: #fff;
+    padding: 48px;
+    height: 400px;
+    display: flex;
 }
-
 .task-details .data-list ul {
     padding: 0;
+}
+
+.task-details ul {
+    margin-top: 32px;
+
+}
+
+.green-btn {
+    background-color: #7ebf3c;
+}
+
+.task-details button {
+    width: 26%;
+    margin-left: 32px;
+}
+
+.task-description {
+    background: #fff;
 }

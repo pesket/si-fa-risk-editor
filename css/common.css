@@ -724,9 +724,6 @@ button .contact-photo {
     padding: 0 24px;
     list-style-type: none;
     flex: 1;
-}
-
-.risk-tree {
     font-size: 24px;
     color: #4a4a4a;
 }
@@ -774,10 +771,6 @@ button .contact-photo {
 .tree ul {
     list-style-type: none;
     overflow: hidden;
-}
-
-.risk-tree ul {
-    padding-left: 24px;
 }
 .tree .info {
     font-size: 14px;
@@ -1238,8 +1231,11 @@ button .contact-photo {
     background-color: #f0f0f0;
     padding: 24px;
 }
-
 .task-details textarea {
     font-size: 16px;
     background: #fff;
+}
+
+.task-details .data-list ul {
+    padding: 0;
 }

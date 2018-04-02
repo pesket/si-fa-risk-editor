@@ -1259,3 +1259,95 @@ button .contact-photo {
 .task-description {
     background: #fff;
 }
+
+#table {
+    width: 100%;
+    height: auto;
+    border-collapse: collapse;
+    page-break-after: auto;
+}
+
+#table thead {
+    display: table-header-group;
+}
+
+#table tr {
+    page-break-after: auto;
+    page-break-inside: avoid;
+}
+
+#table th {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+#table td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: left;
+    page-break-inside: avoid;
+    page-break-after: auto;
+}
+
+#table .risk {
+    text-align: center;
+    font-weight: 800;
+}
+
+#table .action {
+    text-align: center;
+}
+
+@page {
+    size: A4 landscape;
+}
+
+.yellow-color {
+    color: #e6ac00;
+}
+
+.red-color {
+    color: #d0021b;
+}
+
+.green-color {
+    color: #008002;
+}
+
+#table-info {
+    width: 100%;
+    height: auto;
+    border-collapse: collapse;
+    background-color: #cccccc;
+}
+
+#table-info th {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+#table-info td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: left;
+}
+
+#table-info .title {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+#table-info .title-2 {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#table-2 #table th {
+    padding: 20px;
+}
+
+#table-2 #table td {
+    padding: 16px;
+}
